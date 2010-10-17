@@ -1,0 +1,257 @@
+# Ce fichier viminfo a été généré par Vim 7.2.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0~/nmap
+
+# Dernières chaînes de substitution :
+$T\. bibi <daniel\.chesters\@gmail\.com>
+
+# Historique ligne de commande (chronologie décroissante) :
+:q!
+:q
+:w
+:source ~/.vimrc
+:source shortkeys.vim
+:W
+:tabe <cfile><CF>
+:help
+::
+:source .vimrc
+:x
+:call search('!cursor!', 'b')
+:.vimrc
+:x!
+:call CleanCode()
+:source
+:call .vimrc
+:<q
+:698
+:1300
+:x fr.js.new
+:w fs.js.new
+:X
+:<
+:211
+:774
+:121
+:55
+:cal SetSyn("sh")
+:Cal setsyn("sh")
+:127
+
+# Historique chaîne de recherche (chronologie décroissante) :
+? <+AUTEUR_COMMENTAIRE+>
+? nmap
+? map
+? imap
+? <Esc>:cnext<CR><Esc>:exe
+? nnoremap
+? ^\d\{3}ÿ
+? <meta
+?/meta
+?/install
+?/start
+?/etc/
+?/etc
+?//etc
+?/cups
+?/NX
+?/041E
+?/HV
+?/hv
+?/hv7131b 
+? 
+?/SAVE
+?/save
+?/lol
+?/c:
+?/open_base
+?/openbase
+?/open
+?/lsmod
+?//lsmod
+?/swahw
+?/swahw32
+?/swa
+?/698
+? ^\d\{3}\/
+?/babel
+?/label
+?/1300
+?/640
+?/mainloop
+?/211
+?/clwidget
+?/boost_thread
+?/aMSNContactList
+?/320x240
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+@ceci est un test
+@test
+@*
+@0
+@toto
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Resgistres :
+"0	LINE	0
+	
+	...
+	
+	dd 	: Supprimer une ligne
+""1	CHAR	0
+	p <BS> <C-T>
+	" Navigation avec les flèches haut et bas des longues lignes
+	" en utilisant la touche Alt
+	map <A-DOWN> gj
+	map <A-UP> gk
+"2	CHAR	0
+	evenir à la page précédente avec backspace
+	nmap <BS> <C-T>
+	" Navigation avec les flèches haut et bas des longues lignes
+	" en utilisant la touche Alt
+	map <A-DOWN> gj
+"3	LINE	0
+	
+"4	CHAR	0
+	
+	...
+	
+	dd 	: Supprimer une ligne
+	
+"5	CHAR	0
+	AIDE-MEMOIRE POUR VIM
+	
+	<F1> 	: Affichage de l'aide
+	<F2> 	: Recherche
+	
+"6	CHAR	0
+	e
+	nmap <BS> <C-T>
+"7	LINE	0
+	
+"8	LINE	0
+	192.168.0.1		localhost.localdomain	localhost	Zoidberg	
+"9	LINE	0
+	
+"-	CHAR	0
+	R
+
+# Marques dans le fichier :
+'0  5  0  ~/.vim/test.html
+'1  38  0  ~/.vim/test.html
+'2  43  16  ~/.vim/test.html
+'3  73  0  ~/.vim/test.html
+'4  2  0  ~/.vim/sessions/test.desc
+'5  13  0  ~/.vim/shortkeys.vim
+'6  1  0  ~/.vim/+CODE+
+'7  27  22  ~/.vim/shortkeys.vim
+'8  14  0  ~/.vim
+'9  26  23  ~/.vim/shortkeys.vim
+
+# Liste de sauts (le plus récent en premier) :
+-'  5  0  ~/.vim/test.html
+-'  1  0  ~/.vim/-MiniBufExplorer-
+-'  2  14  ~/.vim/-MiniBufExplorer-
+-'  3  0  ~/.vim/sessions/test.desc
+-'  6  1  ~/.vim/test.html
+-'  1  0  ~/.vim/test.html
+-'  38  0  ~/.vim/test.html
+-'  27  1  ~/.vim/test.html
+-'  22  0  ~/.vim/test.html
+-'  47  1  ~/.vim/test.html
+-'  48  1  ~/.vim/test.html
+-'  43  0  ~/.vim/test.html
+-'  68  1  ~/.vim/test.html
+-'  69  1  ~/.vim/test.html
+-'  64  0  ~/.vim/test.html
+-'  101  0  ~/.vim/test.html
+-'  90  1  ~/.vim/test.html
+-'  85  0  ~/.vim/test.html
+-'  110  1  ~/.vim/test.html
+-'  111  1  ~/.vim/test.html
+-'  106  0  ~/.vim/test.html
+-'  131  1  ~/.vim/test.html
+-'  132  1  ~/.vim/test.html
+-'  127  0  ~/.vim/test.html
+-'  164  0  ~/.vim/test.html
+-'  152  1  ~/.vim/test.html
+-'  153  1  ~/.vim/test.html
+-'  148  0  ~/.vim/test.html
+-'  169  16  ~/.vim/test.html
+-'  173  1  ~/.vim/test.html
+-'  174  1  ~/.vim/test.html
+-'  199  0  ~/.vim/test.html
+-'  194  1  ~/.vim/test.html
+-'  195  1  ~/.vim/test.html
+-'  190  0  ~/.vim/test.html
+-'  4  0  ~/.vim/sessions/test.desc
+-'  13  0  ~/.vim/shortkeys.vim
+-'  2  0  ~/.vim/sessions/0.desc
+-'  65  67  ~/.vim/shortkeys.vim
+-'  44  42  ~/.vim/shortkeys.vim
+-'  27  0  ~/.vim/shortkeys.vim
+-'  1  0  ~/.vim/+CODE+
+-'  18  4  ~/.vim/toto.html
+-'  1  0  ~/.vim/Auteur
+-'  5  1  ~/.vim/toto.html
+-'  6  1  ~/.vim/toto.html
+-'  1  0  ~/.vim/toto.html
+-'  26  0  ~/.vim/shortkeys.vim
+-'  14  0  ~/.vim
+-'  8  0  ~/.vim
+-'  1  0  ~/.vim
+-'  25  0  ~/.vim/shortkeys.vim
+-'  34  2  ~/.vim/toto.html
+-'  26  1  ~/.vim/toto.html
+-'  27  1  ~/.vim/toto.html
+-'  22  0  ~/.vim/toto.html
+-'  23  0  ~/.vim/shortkeys.vim
+-'  46  0  ~/.vim/toto.html
+-'  47  1  ~/.vim/toto.html
+-'  48  1  ~/.vim/toto.html
+-'  43  0  ~/.vim/toto.html
+-'  12  46  ~/.vim/shortkeys.vim
+-'  5  0  ~/.vim/shortkeys.vim
+-'  1  0  ~/.vim/shortkeys.vim
+-'  1  0  ~/.vim/shortkeys.cim
+-'  8  24  ~/.vim/memory.txt
+-'  1  0  ~/.vim/memory.txt
+-'  84  11  ~/.vim/toto.html
+-'  68  1  ~/.vim/toto.html
+-'  69  1  ~/.vim/toto.html
+-'  64  0  ~/.vim/toto.html
+-'  1  78  ~/.vim/abbreviations/html.abb.vim
+-'  107  11  ~/.vim/toto.html
+-'  93  1  ~/.vim/toto.html
+-'  94  1  ~/.vim/toto.html
+-'  89  0  ~/.vim/toto.html
+-'  132  0  ~/.vim/toto.html
+-'  116  1  ~/.vim/toto.html
+-'  117  1  ~/.vim/toto.html
+-'  112  0  ~/.vim/toto.html
+-'  202  16  ~/.vimrc
+-'  155  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  1  0  /etc/hosts
+-'  7  0  /etc/hosts
+-'  1  0  /etc/host.conf
+-'  81  33  /usr/include/gnet-2.0/inetaddr.h
+-'  1  0  /usr/include/gnet-2.0/inetaddr.h
+-'  202  0  /usr/include/gnet-2.0/conn.h
+-'  1  0  /usr/include/gnet-2.0/conn.h
+-'  5  29  ~/tmp/gnet/test.c
+-'  8  0  ~/tmp/gnet/test.c
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
