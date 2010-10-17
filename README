@@ -1,4 +1,4 @@
-nstallation:
+Installation:
 
     git clone git://github.com/onitux/dotvim.git ~/.vim
 
