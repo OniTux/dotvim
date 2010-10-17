@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " Activation de la coloration syntaxique
 syntax on
 " Modification du modèle de coloration syntaxique
