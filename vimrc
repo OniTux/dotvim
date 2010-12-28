@@ -287,3 +287,8 @@ set backupdir=$HOME/.vim/backup " On definit le repertoire de sauvegarde
 set backup " On active le comportement
 
 runtime macros/matchit.vim
+
+augroup myfiletypes
+  autocmd!
+  autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
+augroup END
