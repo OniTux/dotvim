@@ -285,3 +285,5 @@ if !filewritable($HOME."/.vim/backup") " Si le repertoire n'existe pas
 endif
 set backupdir=$HOME/.vim/backup " On definit le repertoire de sauvegarde
 set backup " On active le comportement
+
+runtime macros/matchit.vim
