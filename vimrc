@@ -292,3 +292,9 @@ augroup myfiletypes
   autocmd!
   autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
 augroup END
+
+set nocompatible
+
+if has("autocmd")
+  filetype indent plugin on
+endif
