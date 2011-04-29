@@ -4,7 +4,8 @@ call pathogen#helptags()
 " Activation de la coloration syntaxique
 syntax on
 " Modification du modèle de coloration syntaxique
-colorscheme darkblue
+set background=dark
+colorscheme solarized
 " Fonction d'affichage d'un message en inverse vidéo
 function! s:DisplayStatus(msg)
     echohl Todo
