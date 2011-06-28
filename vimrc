@@ -5,7 +5,8 @@ call pathogen#helptags()
 syntax on
 " Modification du modèle de coloration syntaxique
 set background=dark
-colorscheme solarized
+set term=gnome-256color
+colorscheme railscasts
 " Fonction d'affichage d'un message en inverse vidéo
 function! s:DisplayStatus(msg)
     echohl Todo
