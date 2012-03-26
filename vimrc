@@ -289,7 +289,7 @@ endfunction
 " buffers
 set bufhidden=hide
 " Lecture des raccourcis clavier généraux
-source $HOME/.vim/shortkeys.vim
+execute 'source ' . $HOME . '/.vim/shortkeys.vim'
 
 if !filewritable($HOME."/.vim/backup") " Si le repertoire n'existe pas
     call mkdir($HOME."/.vim/backup", "p") " Creation du repertoire de sauvegarde
