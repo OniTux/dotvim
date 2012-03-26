@@ -38,16 +38,16 @@ let s:mouseActivation = 1
 " Fonction permettant l'activation/désactivation de la gestion de la souris
 function! ToggleMouseActivation()
   if (s:mouseActivation)
-      let s:mouseActivation = 0
-      set mouse=n
-      set paste
-      call s:DisplayStatus('Désactivation de la gestion de la souris (mode '.
-                           'collage)')
+    let s:mouseActivation = 0
+    set mouse=n
+    set paste
+    call s:DisplayStatus('Désactivation de la gestion de la souris (mode '.
+                         'collage)')
   else
-      let s:mouseActivation = 1
-      set mouse=a
-      set nopaste
-      call s:DisplayStatus('Activation de la gestion de la souris (mode normal)')
+    let s:mouseActivation = 1
+    set mouse=a
+    set nopaste
+    call s:DisplayStatus('Activation de la gestion de la souris (mode normal)')
   endif
 endfunction
 
