@@ -41,7 +41,6 @@ set nopaste
 set laststatus=2
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [Line=%04l]\ [Col=%04v]\ [%p%%]\ %{fugitive#statusline()}
 
-
 " Activation de l'indentation automatique
 set autoindent
 " Redéfinition des tabulations
@@ -65,9 +64,9 @@ function! CleanCode()
     call s:DisplayStatus('Code nettoyé')
 endfunction
 
-" Ajout de la numérotation des lignes
+" Affichage des numéros de ligne
 set number
-highlight LineNr ctermbg=black ctermfg=gray
+highlight LineNr ctermbg=blue ctermfg=gray
 
 " Surligne la colonne du dernier caractère autorisé par textwidth
 set cc=+1
