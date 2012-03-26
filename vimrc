@@ -2,12 +2,29 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+" Activation de l'indentation automatique
+set autoindent
+" Redéfinition des tabulations
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=8
+" Activation de la détection automatique du type de fichier
+filetype on
+filetype plugin indent on
+
+" Longueur maximale des lignes
+set textwidth=79
+
 " Activation de la coloration syntaxique
 syntax on
 
-" Modification du modèle de coloration syntaxique
-set background=dark
-colorscheme solarized
+" Lecture des raccourcis clavier généraux
+execute 'source ' . $HOME . '/.vim/shortkeys.vim'
+
+" Activation de la barre de status de fugitive
+set laststatus=2
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [Line=%04l]\ [Col=%04v]\ [%p%%]\ %{fugitive#statusline()}
 
 " Fonction d'affichage d'un message en inverse vidéo
 function! s:DisplayStatus(msg)
@@ -36,24 +53,6 @@ endfunction
 " Activation par défaut au démarrage de la gestion de la souris
 set mouse=a
 set nopaste
-
-" Activation de la barre de status de fugitive
-set laststatus=2
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [Line=%04l]\ [Col=%04v]\ [%p%%]\ %{fugitive#statusline()}
-
-" Activation de l'indentation automatique
-set autoindent
-" Redéfinition des tabulations
-set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=8
-" Activation de la détection automatique du type de fichier
-filetype on
-filetype plugin indent on
-
-" Longueur maximale des lignes
-set textwidth=79
 
 " Fonction de 'nettoyage' d'un fichier
 "   - remplacement des tabulations par des espaces
@@ -86,8 +85,9 @@ highlight CursorLine term=reverse cterm=reverse
 highlight TabLine term=none cterm=none
 highlight TabLineSel ctermbg=darkblue
 
-" Lecture des raccourcis clavier généraux
-execute 'source ' . $HOME . '/.vim/shortkeys.vim'
+" Modification du modèle de coloration syntaxique
+set background=dark
+colorscheme solarized
 
 if !filewritable($HOME."/.vim/backup") " Si le repertoire n'existe pas
     call mkdir($HOME."/.vim/backup", "p") " Creation du repertoire de sauvegarde
