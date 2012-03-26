@@ -36,9 +36,12 @@ endfunction
 " Activation par défaut au démarrage de la gestion de la souris
 set mouse=a
 set nopaste
-" Personnalisation de la ligne de status
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [Line=%04l]\ [Col=%04v]\ [%p%%]
+
+" Activation de la barre de status de fugitive
 set laststatus=2
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [Line=%04l]\ [Col=%04v]\ [%p%%]\ %{fugitive#statusline()}
+
+
 " Activation de l'indentation automatique
 set autoindent
 " Redéfinition des tabulations
