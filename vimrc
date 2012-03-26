@@ -28,39 +28,40 @@ set statusline=set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%0
 
 " Fonction d'affichage d'un message en inverse vidéo
 function! s:DisplayStatus(msg)
-    echohl Todo
-    echo a:msg
-    echohl None
+  echohl Todo
+  echo a:msg
+  echohl None
 endfunction
 
 " Variable d'enregistrement de l'état de la gestion de la souris
 let s:mouseActivation = 1
 " Fonction permettant l'activation/désactivation de la gestion de la souris
 function! ToggleMouseActivation()
-    if (s:mouseActivation)
-        let s:mouseActivation = 0
-        set mouse=n
-        set paste
-        call s:DisplayStatus('Désactivation de la gestion de la souris (mode collage)')
-    else
-        let s:mouseActivation = 1
-        set mouse=a
-        set nopaste
-        call s:DisplayStatus('Activation de la gestion de la souris (mode normal)')
-    endif
+  if (s:mouseActivation)
+      let s:mouseActivation = 0
+      set mouse=n
+      set paste
+      call s:DisplayStatus('Désactivation de la gestion de la souris (mode '.
+                           'collage)')
+  else
+      let s:mouseActivation = 1
+      set mouse=a
+      set nopaste
+      call s:DisplayStatus('Activation de la gestion de la souris (mode normal)')
+  endif
 endfunction
 
 " Activation par défaut au démarrage de la gestion de la souris
 set mouse=a
 set nopaste
 
-" Fonction de 'nettoyage' d'un fichier
+" Fonction de 'nettoyage' d'un fichier :
 "   - remplacement des tabulations par des espaces
 "   - suppression des caractères ^M en fin de ligne
 function! CleanCode()
-    %retab
-    %s/^M//g
-    call s:DisplayStatus('Code nettoyé')
+  %retab
+  %s/^M//g
+  call s:DisplayStatus('Code nettoyé')
 endfunction
 
 " Affichage des numéros de ligne
