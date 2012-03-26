@@ -45,7 +45,14 @@ set autoindent
 set expandtab
 set shiftwidth=4
 set softtabstop=4
-set tabstop=4
+set tabstop=8
+" Activation de la détection automatique du type de fichier
+filetype on
+filetype plugin indent on
+
+" Longueur maximale des lignes
+set textwidth=79
+
 " Fonction de 'nettoyage' d'un fichier
 "   - remplacement des tabulations par des espaces
 "   - suppression des caractères  en fin de ligne
