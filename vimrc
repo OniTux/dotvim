@@ -57,7 +57,7 @@ set textwidth=79
 
 " Fonction de 'nettoyage' d'un fichier
 "   - remplacement des tabulations par des espaces
-"   - suppression des caractères  en fin de ligne
+"   - suppression des caractères ^M en fin de ligne
 function! CleanCode()
     %retab
     %s/^M//g
