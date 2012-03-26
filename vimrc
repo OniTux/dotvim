@@ -1,12 +1,14 @@
+" Chargement de Pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " Activation de la coloration syntaxique
 syntax on
+
 " Modification du modèle de coloration syntaxique
 set background=dark
-set term=gnome-256color
-colorscheme railscasts
+colorscheme solarized
+
 " Fonction d'affichage d'un message en inverse vidéo
 function! s:DisplayStatus(msg)
     echohl Todo
