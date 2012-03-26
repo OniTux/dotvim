@@ -49,7 +49,7 @@ set tabstop=4
 "   - suppression des caractères  en fin de ligne
 function! CleanCode()
     %retab
-    %s///g
+    %s/^M//g
     call s:DisplayStatus('Code nettoyé')
 endfunction
 " Déplacement de l'onglet courant vers la gauche ou vers la droite
