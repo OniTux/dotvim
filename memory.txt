@@ -1,8 +1,0 @@
-AIDE-MEMOIRE POUR VIM
-
-<F1> 	: Affichage de l'aide
-<F2> 	: Recherche
-
-...
-
-dd 	: Supprimer une ligne
