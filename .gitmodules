@@ -52,3 +52,6 @@
 [submodule "bundle/tasklist"]
 	path = bundle/tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "bundle/py.test"]
+	path = bundle/py.test
+	url = https://github.com/alfredodeza/pytest.vim.git
