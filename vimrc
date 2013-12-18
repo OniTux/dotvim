@@ -1,6 +1,25 @@
-" Chargement de Pathogen
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'wincent/Command-T'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-git'
+Bundle 'sjl/gundo.vim'
+Bundle 'fholgado/minibufexpl.vim'
+Bundle 'vim-scripts/The-NERD-tree'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'ervandew/supertab'
+Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/syntastic'
+Bundle 'vim-scripts/taglist.vim'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'junegunn/vim-easy-align'
+
 
 " Activation de l'indentation automatique
 set autoindent
