@@ -1,1 +1,1 @@
-set guifont=Inconsolata\ Medium\ 10
+set guifont=Liberation\ Mono\ for\ Powerline\ 10
