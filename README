@@ -9,5 +9,5 @@ Create symlinks:
 
 Compile command-t:
 
-    cd ~/.vim/bundle/command-t
+    cd ~/.vim/bundle/Command-T
     rake make
