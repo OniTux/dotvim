@@ -32,9 +32,6 @@ set tabstop=8
 filetype on
 filetype plugin indent on
 
-" Longueur maximale des lignes
-set textwidth=79
-
 " Activation de la coloration syntaxique
 syntax on
 
